@@ -1,5 +1,5 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Blog extends Model {}
 
@@ -10,14 +10,21 @@ Blog.init(
       allowNull: false,
       validate: {
         notNull: true,
-      }
+      },
     },
     content: {
       type: DataType.STRING,
       allowNull: false,
       validate: {
         notNull: true,
-      }
+      },
+    },
+    authorId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      validate: {
+        notNull: true,
+      },
     },
   },
   {
@@ -27,6 +34,6 @@ Blog.init(
     underscored: true,
     modelName: "blog",
   }
-)
+);
 
-model.exports = Blog
+model.exports = Blog;

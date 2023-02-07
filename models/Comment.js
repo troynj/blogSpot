@@ -5,28 +5,35 @@ class Comment extends Model {}
 
 Comment.init(
   {
-    title: {
-      type: DataType.STRING,
-      allowNull: false,
-      validate: {
-        notNull: true,
-      }
-    },
     content: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        notNull: true,
+        notNull: true
       }
     },
+    authorId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      validate: {
+        notNull: true
+      }
+    },
+    blogId: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      validate: {
+        notNull: true
+      }
+    }
   },
   {
     sequelize,
     timestamps: true,
     freezeTableName: true,
     underscored: true,
-    modelName: "comment",
+    modelName: "comment"
   }
 );
 
-model.exports = Comment
+module.exports = Comment;
