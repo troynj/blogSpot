@@ -1,0 +1,29 @@
+[
+  { "model": "user", "data": { "name": "The Amazing Spiderman" } },
+  { "model": "user", "data": { "name": "Wonder Woman" } },
+  { "model": "user", "data": { "name": "The Incredible Hulk" } },
+  {
+    "model": "user",
+    "data": {
+      "name": "Thor"
+    }
+  },
+  {
+    "model": "user",
+    "data": {
+      "name": "Ant-Man"
+    }
+  },
+  {
+    "model": "user",
+    "data": {
+      "name": "Dr. Strange"
+    }
+  },
+  { "model": "user", "data": { "name": "Batman" } },
+  { "model": "user", "data": { "name": "Robin" } },
+  { "model": "user", "data": { "name": "The Joker" } },
+  { "model": "user", "data": { "name": "Lex Luthor" } },
+  { "model": "user", "data": { "name": "The Riddler" } },
+  { "model": "user", "data": { "name": "Catwoman" } }
+]

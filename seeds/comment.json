@@ -1,0 +1,583 @@
+[
+  {
+    "model": "comment",
+    "data": {
+      "content": "Excellent advice, Spider-Man! Safety should always be the top priority when climbing a building. I especially appreciate the reminder to stay alert and be prepared for any potential dangers.",
+      "authorId": 2,
+      "blogId": 1
+    }
+  },
+
+  {
+    "model": "comment",
+    "data": {
+      "content": "Climbing buildings? Pfft! That's child's play for me. I just smash my way to the top!",
+      "authorId": 3,
+      "blogId": 1
+    }
+  },
+
+  {
+    "model": "comment",
+    "data": {
+      "content": "Interesting tips, Spider-Man. I'll be sure to take them into consideration the next time I need to scale a building.",
+      "authorId": 7,
+      "blogId": 1
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I've been practicing my web-slinging skills.",
+      "authorId": 2,
+      "blogId": 1
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I need to work on my anger management.",
+      "authorId": 3,
+      "blogId": 1
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Ha! Climbing buildings? That sounds like a laugh. I prefer to blow them up and watch the chaos unfold.",
+      "authorId": 9,
+      "blogId": 1
+    }
+  },
+
+  {
+    "model": "comment",
+    "data": {
+      "content": "Spare me the theatrics, Spider-Man. If I needed to climb a building, I'd simply hire a team of mercenaries to do it for me.",
+      "authorId": 10,
+      "blogId": 1
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I'm ready to embrace my inner strength.",
+      "authorId": 1,
+      "blogId": 2
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Well said, Amazon Princess. I too have learned the importance of inner strength and the power of perseverance from my experiences as Thor, the God of Thunder.",
+      "authorId": 4,
+      "blogId": 2
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I completely agree, Wonder Woman. As Ant-Man, I have learned the power of adapting and always finding new ways to overcome obstacles.",
+      "authorId": 5,
+      "blogId": 2
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "As the Dark Knight, I have seen the consequences of not striving for self-improvement and always striving to better myself. It's a constant battle, but one that is necessary for success.",
+      "authorId": 7,
+      "blogId": 2
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I couldn't agree more with the importance of teamwork. After all, what fun is it being the Riddler if I don't have anyone to challenge?",
+      "authorId": 11,
+      "blogId": 2
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "As Catwoman, I have learned the power of cunning and always having a backup plan. But I must admit, it's always better to have a team to work with.",
+      "authorId": 12,
+      "blogId": 2
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Smashing never gets old.",
+      "authorId": 2,
+      "blogId": 3
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I couldn't agree more, smashing is an art form that requires control and strategy.",
+      "authorId": 2,
+      "blogId": 3
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "As a god of thunder, I also understand the importance of proper form and technique. A well-placed strike can bring even the strongest foes to their knees.",
+      "authorId": 4,
+      "blogId": 3
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "As a practitioner of the mystic arts, I must say that while brute force can be effective, it's often more productive to approach a situation with a calm mind and calculated strategy.",
+      "authorId": 6,
+      "blogId": 3
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "As a Boy Wonder, I've learned that it's not just about the size of your muscles, it's also about quick thinking and adapting to any situation.",
+      "authorId": 8,
+      "blogId": 3
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Ha! It's all about creating chaos and destruction, my dear friends. The more destruction, the better!",
+      "authorId": 9,
+      "blogId": 3
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "As a master thief, I've found that sometimes the most effective method is a well-placed distraction. Draw your foes in one direction, then strike from the shadows.",
+      "authorId": 12,
+      "blogId": 3
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Whoa, the power of Thor is truly awe-inspiring. Can't imagine the kind of strength it takes to wield Mjolnir.",
+      "authorId": 1,
+      "blogId": 4
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Thor is indeed a powerful hero, but we must not forget the importance of his heart and his unwavering commitment to justice.",
+      "authorId": 2,
+      "blogId": 4
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Ha! A 'god of thunder'? Please, there's no such thing. But I'll admit, he's a worthy opponent.",
+      "authorId": 9,
+      "blogId": 4
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Mjolnir is a truly remarkable weapon.",
+      "authorId": 1,
+      "blogId": 4
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The power of Thor is quite impressive, but I'm more interested in the science behind it. What's the electrical charge in Mjolnir? How does it generate that much power?",
+      "authorId": 11,
+      "blogId": 4
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Thor may have the brawn, but I've got the brains and the agility. I'd like to see him try and keep up with me on the rooftops.",
+      "authorId": 12,
+      "blogId": 4
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Ant-Man, your journey is truly inspiring. Shrinking to greatness takes a lot of bravery and determination. I admire your perseverance and courage to make a difference, no matter the size.",
+      "authorId": 2,
+      "blogId": 5
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Size doesn't matter when it comes to heroism.",
+      "authorId": 2,
+      "blogId": 5
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I have always been a fan of Ant-Man's abilities. Shrinking to such small sizes and then growing to immense strength is truly remarkable. Your journey to become a hero is a testament to what can be accomplished with hard work and dedication.",
+      "authorId": 4,
+      "blogId": 5
+    }
+  },
+
+  {
+    "model": "comment",
+    "data": {
+      "content": "Ant-Man, your journey is a classic example of what it means to never give up. No matter the obstacles, you continued to push forward and make a name for yourself in the hero community. Respect.",
+      "authorId": 7,
+      "blogId": 5
+    }
+  },
+
+  {
+    "model": "comment",
+    "data": {
+      "content": "Interesting story, Ant-Man. It's great to see a hero come from such humble beginnings and make a big impact. Keep up the good work, small or large!",
+      "authorId": 11,
+      "blogId": 5
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Dr. Strange's mastery over the mystic arts is truly awe-inspiring. His abilities never cease to amaze me!",
+      "authorId": 1,
+      "blogId": 6
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The multiverse is truly a mysterious place.",
+      "authorId": 3,
+      "blogId": 6
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I have seen Dr. Strange in action, and I can say without a doubt that his powers are unparalleled. A true master of the mystic arts.",
+      "authorId": 4,
+      "blogId": 6
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "As a fellow magician, I have a deep appreciation for the skills of Dr. Strange. He truly is the Sorcerer Supreme!",
+      "authorId": 11,
+      "blogId": 6
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Dr. Strange's abilities are not to be underestimated. He is a formidable force, both on and off the battlefield.",
+      "authorId": 12,
+      "blogId": 6
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The Dark Knight is a symbol of hope for Gotham. His unwavering determination to protect the city and its citizens is truly inspiring.",
+      "authorId": 2,
+      "blogId": 7
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Batman is the ultimate symbol of justice.",
+      "authorId": 7,
+      "blogId": 7
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Batman is a true detective, always one step ahead of the criminal underworld. His intelligence and resourcefulness make him a formidable opponent.",
+      "authorId": 7,
+      "blogId": 7
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Ha! Batman may have the gadgets, but he still hasn't been able to catch me. I enjoy keeping the Dark Knight on his toes!",
+      "authorId": 9,
+      "blogId": 7
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Batman may be a vigilante, but he has a moral code that sets him apart from the criminals he hunts. He truly is the defender of Gotham.",
+      "authorId": 12,
+      "blogId": 7
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Great article, Robin! It's always a privilege to see the Bat-Signal and team up with the Dark Knight. We make quite the duo.",
+      "authorId": 1,
+      "blogId": 8
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Well said, Robin! Batman and you truly are the dynamic duo, always saving Gotham and defeating the bad guys.",
+      "authorId": 2,
+      "blogId": 8
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Robin adds a much needed sidekick to the equation.",
+      "authorId": 8,
+      "blogId": 8
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Ha! Another sidekick trying to get some recognition. How cute.",
+      "authorId": 9,
+      "blogId": 8
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I must say, Robin, you are one of the few who has caught my interest. Perhaps we should team up and challenge the Dynamic Duo? What do you say?",
+      "authorId": 12,
+      "blogId": 8
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Ha ha ha, the Joker is the king of chaos and mayhem. No one can match his level of craziness!",
+      "authorId": 9,
+      "blogId": 9
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The Joker is a master of chaos and destruction.",
+      "authorId": 9,
+      "blogId": 9
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The Joker is a mastermind, always staying one step ahead of the authorities. It's what makes him so intriguing!",
+      "authorId": 11,
+      "blogId": 9
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I have a love-hate relationship with the Joker. He's a criminal, but at least he adds some excitement to Gotham City.",
+      "authorId": 7,
+      "blogId": 9
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The Joker is the type of villain that keeps you on your toes. You never know what he's going to do next!",
+      "authorId": 12,
+      "blogId": 9
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Lex Luthor is a brilliant mind. I have always respected his intelligence and resourcefulness.",
+      "authorId": 7,
+      "blogId": 10
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The mind of a genius is indeed a fascinating thing, especially when it's used for evil purposes.",
+      "authorId": 2,
+      "blogId": 10
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Lex Luthor is a formidable opponent, but his intelligence is what makes him truly dangerous.",
+      "authorId": 4,
+      "blogId": 10
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Lex Luthor is a formidable opponent with his intelligence and wealth.",
+      "authorId": 10,
+      "blogId": 10
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I have faced many challenges in my life, but none have tested my intellect as much as Lex Luthor.",
+      "authorId": 1,
+      "blogId": 10
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "It's always a game with Lex Luthor. I can never quite predict his next move.",
+      "authorId": 11,
+      "blogId": 10
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Lex Luthor's mind is a work of art, I just wish it was used for better purposes.",
+      "authorId": 12,
+      "blogId": 10
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I admire the Riddler's intellect, but his need for attention and validation through crime is misguided.",
+      "authorId": 1,
+      "blogId": 11
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The Riddler's puzzles may be clever, but his actions are reprehensible. There's nothing admirable about terrorizing innocent people.",
+      "authorId": 2,
+      "blogId": 11
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "I may not agree with the Riddler's methods, but you have to admit, his riddles are pretty good.",
+      "authorId": 7,
+      "blogId": 11
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The Riddler may be a brilliant criminal, but I wouldn't trust him as far as I can throw him.",
+      "authorId": 4,
+      "blogId": 11
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The Riddler's puzzles keep the city on its toes.",
+      "authorId": 1,
+      "blogId": 11
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "The Riddler may be a nuisance, but he adds a certain flair to Gotham's criminal underworld.",
+      "authorId": 12,
+      "blogId": 11
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+      "content": "Catwoman is a unpredictable force, walking the line between hero and villain.",
+      "authorId": 7,
+      "blogId": 12
+    }
+  },
+  {
+    "model": "comment",
+    "data": {
+    "content": "Catwoman is the epitome of cunning and grace. She's a force to be reckoned with!",
+    "authorId": 1,
+    "blogId": 12
+    }
+    },
+    {
+    "model": "comment",
+    "data": {
+    "content": "I have always admired Catwoman's independence and bravery. She is a true inspiration!",
+    "authorId": 2,
+    "blogId": 12
+    }
+    },
+    {
+    "model": "comment",
+    "data": {
+    "content": "The Feline Fatale has always been one of my favorite villains. Her cunning and elegance make her a worthy opponent!",
+    "authorId": 7,
+    "blogId": 12
+    }
+    },
+    {
+    "model": "comment",
+    "data": {
+    "content": "I may not agree with Catwoman's methods, but I have to admit, she is one of the smartest and most capable characters in the DC universe.",
+    "authorId": 6,
+    "blogId": 12
+    }
+    },
+    {
+    "model": "comment",
+    "data": {
+    "content": "The way Catwoman moves and thinks is just mesmerizing. She truly is the queen of thieves!",
+    "authorId": 4,
+    "blogId": 12
+    }
+    },
+    {
+    "model": "comment",
+    "data": {
+    "content": "Catwoman is the perfect mix of beauty and brains. No one can match her style and wit!",
+    "authorId": 5,
+    "blogId": 12
+    }
+    },
+    {
+    "model": "comment",
+    "data": {
+    "content": "The Feline Fatale is a true enigma. She always keeps us guessing, and that's what makes her so intriguing!",
+    "authorId": 9,
+    "blogId": 12
+    }
+    }
+]
