@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store/
+.vscode
+.env
+prompt.md
+14-mcv-challenge-dem0-01.gif
