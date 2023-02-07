@@ -1,29 +1,23 @@
 [
-  { "model": "user", "data": { "name": "The Amazing Spiderman" } },
-  { "model": "user", "data": { "name": "Wonder Woman" } },
-  { "model": "user", "data": { "name": "The Incredible Hulk" } },
+  { "name": "The Amazing Spiderman", "password": "spidermanpass" },
+  { "name": "Wonder Woman", "password": "wonderwomanpass" },
+  { "name": "The Incredible Hulk", "password": "hulkpass" },
   {
-    "model": "user",
-    "data": {
-      "name": "Thor"
-    }
+    "name": "Thor",
+    "password": "thorpass"
   },
   {
-    "model": "user",
-    "data": {
-      "name": "Ant-Man"
-    }
+    "name": "Ant-Man",
+    "password": "antmanpass"
   },
   {
-    "model": "user",
-    "data": {
-      "name": "Dr. Strange"
-    }
+    "name": "Dr. Strange",
+    "password": "drstrangepass"
   },
-  { "model": "user", "data": { "name": "Batman" } },
-  { "model": "user", "data": { "name": "Robin" } },
-  { "model": "user", "data": { "name": "The Joker" } },
-  { "model": "user", "data": { "name": "Lex Luthor" } },
-  { "model": "user", "data": { "name": "The Riddler" } },
-  { "model": "user", "data": { "name": "Catwoman" } }
+  { "name": "Batman", "password": "batmanpass" },
+  { "name": "Robin", "password": "robinpass" },
+  { "name": "The Joker", "password": "jokerpass" },
+  { "name": "Lex Luthor", "password": "luthorpass" },
+  { "name": "The Riddler", "password": "riddlerpass" },
+  { "name": "Catwoman", "password": "catwomanpass" }
 ]

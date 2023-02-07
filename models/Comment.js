@@ -5,34 +5,39 @@ class Comment extends Model {}
 
 Comment.init(
   {
+    id: {
+      type: DataTypes.INTEGER,
+      autoIncrement: true,
+      primaryKey: true,
+    },
     content: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        notNull: true
-      }
+        notNull: true,
+      },
     },
     authorId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
-        notNull: true
-      }
+        notNull: true,
+      },
     },
     blogId: {
       type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
-        notNull: true
-      }
-    }
+        notNull: true,
+      },
+    },
   },
   {
     sequelize,
     timestamps: true,
     freezeTableName: true,
     underscored: true,
-    modelName: "comment"
+    modelName: "comment",
   }
 );
 

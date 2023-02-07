@@ -5,15 +5,20 @@ class Blog extends Model {}
 
 Blog.init(
   {
+    id: {
+      type: DataTypes.INTEGER,
+      autoIncrement: true,
+      primaryKey: true,
+    },
     title: {
-      type: DataType.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notNull: true,
       },
     },
     content: {
-      type: DataType.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
       validate: {
         notNull: true,
@@ -36,4 +41,4 @@ Blog.init(
   }
 );
 
-model.exports = Blog;
+module.exports = Blog;

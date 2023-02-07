@@ -10,7 +10,7 @@ const seedDatabase = async () => {
 
   const blogs = await Blog.bulkCreate(blogSeeds);
   const comments = await Comment.bulkCreate(commentSeeds);
-  const users = await Comment.bulkCreate(userSeeds);
+  const users = await User.bulkCreate(userSeeds);
 
   process.exit(0);
 };
