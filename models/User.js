@@ -21,6 +21,29 @@ User.init(
     },
   },
   {
+    hooks: {
+      beforeCreate: async (newReader) => {
+        try {
+          newReader.password = await bcrypt.hash(newReader.password, 10);
+          return newReader;
+        } catch (err) {
+          console.log(err);
+          return err;
+        }
+      },
+      beforeUpdate: async (updatedReader) => {
+        try {
+          updatedReader.password = await bcrypt.hash(
+            updatedReader.password,
+            10
+          );
+          return updatedReader;
+        } catch (err) {
+          console.log(err);
+          return err;
+        }
+      },
+    },
     sequelize,
     timestamps: true,
     freezeTableName: true,

@@ -27,6 +27,10 @@ Blog.init(
     authorId: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      // references: {
+      //   model: 'user',
+      //   key: 'id'
+      // },
       validate: {
         notNull: true,
       },

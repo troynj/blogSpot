@@ -20,6 +20,10 @@ Comment.init(
     authorId: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      // references: {
+      //   model: 'user',
+      //   key: 'id'
+      // },
       validate: {
         notNull: true,
       },
@@ -27,6 +31,10 @@ Comment.init(
     blogId: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      // references: {
+      //   model: 'blog',
+      //   key: 'id'
+      // },
       validate: {
         notNull: true,
       },
