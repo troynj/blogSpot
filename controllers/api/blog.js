@@ -5,9 +5,12 @@ const { Blog, Comment, User } = require("../../models");
 router.get("/", async (req, res) => {
   try {
     const blogData = await Blog.findAll({
-      includes: [{ model: User }],
+      include: [
+        { model: User },
+        { model: Comment, include: [{ model: User }] },
+      ]
     });
-    // const blogs = blogData.map((blog) => blog.get({ plain: true }));
+    const blogs = blogData.map((blog) => blog.get({ plain: true }));
 
     res.status(200).json(blogData);
     console.log();
@@ -19,10 +22,10 @@ router.get("/", async (req, res) => {
 router.get("/:id", async (req, res) => {
   try {
     const blogData = await Blog.findByPk(req.params.id, {
-      includes: [{ model: User, where :{id: req.body.authorId}},{ through: Comment}]
-      // includes: [{ model: 'user'}]
-      // includes: [{ model: User, where :{id: req.body.authorId},{ through: Comment}}],
-      // { model : Comment, where : {blog_id : req.body.id}}]
+      include: [
+        { model: User },
+        { model: Comment, include: [{ model: User }] },
+      ]
     });
 
     if (!blogData) {
