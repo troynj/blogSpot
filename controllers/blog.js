@@ -30,8 +30,10 @@ router.get("/:id", async (req, res) => {
       res.status(404).json({ message: "No blogs found with this id!" });
       return;
     }
-
-    res.status(200).render('blog', {blogData});
+    const data = blogData.get({ plain: true });
+    console.log("tester log")
+console.log(data)
+    res.status(200).render('blog', data);
   } catch (err) {
     res.status(500).json(err);
   }

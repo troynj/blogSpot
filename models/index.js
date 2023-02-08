@@ -26,7 +26,4 @@ Comment.belongsTo(User, {
   foreignKey: 'user_id',
 })
 
-Comment.hasOne(User, {
-})
-
 module.exports = { Blog, Comment, User }
