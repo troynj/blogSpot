@@ -17,7 +17,7 @@ Comment.init(
         notNull: true,
       },
     },
-    authorId: {
+    user_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
@@ -28,7 +28,7 @@ Comment.init(
         notNull: true,
       },
     },
-    blogId: {
+    blog_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {

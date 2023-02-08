@@ -14,8 +14,8 @@
     "url": "git+https://github.com/troynj/blogSpot.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Troy Johnson",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/troynj/blogSpot/issues"
   },

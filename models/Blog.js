@@ -24,12 +24,12 @@ Blog.init(
         notNull: true,
       },
     },
-    authorId: {
+    user_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: 'user',
-        key: 'id'
+        model: "user",
+        key: "id",
       },
       validate: {
         notNull: true,

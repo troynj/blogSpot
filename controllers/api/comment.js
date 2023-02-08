@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   try {
     const commentData = await Comment.findByPk(req.params.id, {
-      includes: [{ model: User}]
+      includes: [{ model: User }]
     });
 
     if (!commentData) {

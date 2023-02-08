@@ -1,27 +1,32 @@
-const router = require('express').Router();
-const { Blog, Comment, User } = require('../../models');
+const router = require("express").Router();
+// const sequelize = require("../../config/connection")
+const { Blog, Comment, User } = require("../../models");
 
-router.get('/', async (req, res) => {
-  try{
-    const blogData = await Blog.findAll();
-    const blogs = blogData.map((blog) => blog.get({ plain: true }));
+router.get("/", async (req, res) => {
+  try {
+    const blogData = await Blog.findAll({
+      includes: [{ model: User }],
+    });
+    // const blogs = blogData.map((blog) => blog.get({ plain: true }));
 
-    res.status(200).json(blogs);
-    console.log()
+    res.status(200).json(blogData);
+    console.log();
   } catch (err) {
     res.status(500).json(err);
   }
-})
+});
 
-router.get('/:id', async (req, res) => {
+router.get("/:id", async (req, res) => {
   try {
     const blogData = await Blog.findByPk(req.params.id, {
-    includes: [{ model: User, where :{id: req.body.authorId}},
-    { model : Comment, where : {blog_id : req.body.id}}]
+      includes: [{ model: User, where :{id: req.body.authorId}},{ through: Comment}]
+      // includes: [{ model: 'user'}]
+      // includes: [{ model: User, where :{id: req.body.authorId},{ through: Comment}}],
+      // { model : Comment, where : {blog_id : req.body.id}}]
     });
 
     if (!blogData) {
-      res.status(404).json({ message: 'No blogs found with this id!' });
+      res.status(404).json({ message: "No blogs found with this id!" });
       return;
     }
 
@@ -31,7 +36,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-router.post('/', async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const blogData = await Blog.create(req.body);
     res.status(200).json(blogData);
@@ -40,16 +45,16 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.delete('/:id', async (req, res) => {
+router.delete("/:id", async (req, res) => {
   try {
     const blogData = await Blog.destroy({
       where: {
-        id: req.params.id
-      }
+        id: req.params.id,
+      },
     });
 
     if (!blogData) {
-      res.status(404).json({ message: 'No blogs found with this id!' });
+      res.status(404).json({ message: "No blogs found with this id!" });
       return;
     }
 
