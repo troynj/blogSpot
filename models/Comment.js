@@ -5,11 +5,11 @@ class Comment extends Model {}
 
 Comment.init(
   {
-    id: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
-      primaryKey: true,
-    },
+    // id: {
+    //   type: DataTypes.INTEGER,
+    //   autoIncrement: true,
+    //   primaryKey: true,
+    // },
     content: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -20,10 +20,10 @@ Comment.init(
     authorId: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      // references: {
-      //   model: 'user',
-      //   key: 'id'
-      // },
+      references: {
+        model: 'user',
+        key: 'id',
+      },
       validate: {
         notNull: true,
       },
@@ -31,10 +31,10 @@ Comment.init(
     blogId: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      // references: {
-      //   model: 'blog',
-      //   key: 'id'
-      // },
+      references: {
+        model: 'blog',
+        key: 'id'
+      },
       validate: {
         notNull: true,
       },

@@ -3,8 +3,8 @@ const { Blog, Comment, User } = require('../../models');
 
 router.get('/', async (req, res) => {
   try{
-    const commentData = await Blog.findAll();
-    const comments = commentData.map((blog) => blog.get({ plain: true }));
+    const commentData = await Comment.findAll();
+    const comments = commentData.map((Comment) => Comment.get({ plain: true }));
 
     res.status(200).json(comments);
     console.log()
@@ -15,8 +15,8 @@ router.get('/', async (req, res) => {
 
 router.get('/:id', async (req, res) => {
   try {
-    const commentData = await Blog.findByPk(req.params.id, {
-      include: [{ model: User}]
+    const commentData = await Comment.findByPk(req.params.id, {
+      includes: [{ model: User}]
     });
 
     if (!commentData) {
@@ -32,7 +32,7 @@ router.get('/:id', async (req, res) => {
 
 router.post('/', async (req, res) => {
   try {
-    const commentData = await Blog.create(req.body);
+    const commentData = await Comment.create(req.body);
     res.status(200).json(commentData);
   } catch (err) {
     res.status(400).json(err);
@@ -41,7 +41,7 @@ router.post('/', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   try {
-    const commentData = await Blog.destroy({
+    const commentData = await Comment.destroy({
       where: {
         id: req.params.id
       }
