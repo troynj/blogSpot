@@ -12,8 +12,7 @@ router.get("/", async (req, res) => {
     });
     const blogs = blogData.map((blog) => blog.get({ plain: true }));
 
-    res.status(200).json(blogData);
-    console.log();
+    res.render('blog', {blogs});
   } catch (err) {
     res.status(500).json(err);
   }

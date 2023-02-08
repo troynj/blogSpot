@@ -1,0 +1,11 @@
+<main>
+      <section>
+        <h2>Author: {{name}} </h2>
+        <table>
+         {{#each blogs as |blog|}}
+         {{!-- <div>{{data.id}}</div> --}}
+{{> blog-details}}
+{{/each}}
+        </table>
+      </section>
+    </main>

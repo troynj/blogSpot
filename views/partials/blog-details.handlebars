@@ -1,0 +1,10 @@
+<tr>
+  <th>title : {{title}}</th>
+  <th>{{createdAt}}</th>
+</tr>
+<p>{{content}}</p>
+<tr>
+{{#each comments as |comment|}}
+{{> comment-dd}}
+{{/each}}
+</tr>
