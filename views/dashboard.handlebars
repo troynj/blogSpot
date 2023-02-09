@@ -10,7 +10,7 @@
     </header>
     <main>
       <section>
-        <h2>Author: {{data.name}} </h2>
+        <h2>Author: <a href="../user/{{data.id}}">{{data.name}}</a> </h2>
         <table>
          {{#each data.blogs as |blog|}}
          {{!-- <div>{{data.id}}</div> --}}

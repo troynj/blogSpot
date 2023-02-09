@@ -363,5 +363,81 @@
     "content": "The Feline Fatale is a true enigma. She always keeps us guessing, and that's what makes her so intriguing!",
     "user_id": 9,
     "blog_id": 12
+  },
+  {
+    "content": "I'm with you, Hulk. The Joker war is a disaster. We have to stop him, no matter what it takes. The city needs us",
+    "user_id": 2,
+    "blog_id": 13
+  },
+  {
+    "content": "I agree, Wonder Woman. The Joker's taken things too far this time. But we won't give up. We'll fight until Gotham's safe again",
+    "user_id": 14,
+    "blog_id": 6
+  },
+  {
+    "content": "Count me in, I'll do whatever it takes to stop the Joker. Gotham needs us now more than ever",
+    "user_id": 13,
+    "blog_id": 7
+  },
+  {
+    "content": "I'm ready for action. The Joker may be a clown, but he's a dangerous one. We'll take him down",
+    "user_id": 8,
+    "blog_id": 13
+  },
+  {
+    "content": "You can count on me, I'll fight by your side. The Joker's reign of terror ends now.",
+    "user_id": 3,
+    "blog_id": 13
+  },
+  {
+    "content": "It's a sad day, Hulk. We've lost a hero, but his legacy will live on. We have to carry on in his memory",
+    "user_id": 2,
+    "blog_id": 14
+  },
+  {
+    "content": "I couldn't agree more, Wonder Woman. The Man of Steel may be gone, but he'll always be remembered. He'll always be our hero",
+    "user_id": 5,
+    "blog_id": 14
+  },
+  {
+    "content": "I'll miss him too. He was more than a hero, he was a symbol of hope. But we have to keep his spirit alive.",
+    "user_id": 7,
+    "blog_id": 14
+  },
+  {
+    "content": "The world's a little darker without him, but we'll keep shining his light. We'll keep fighting for justice.",
+    "user_id": 8,
+    "blog_id": 14
+  },
+  {
+    "content": "We've lost a friend and a mentor, but his memory will inspire us to be better. We'll honor him by doing what's right",
+    "user_id": 1,
+    "blog_id": 14
+  },
+  {
+    "content": "It's worse than I thought, Hulk. The Legion of Doom is a threat to everything we stand for. We have to stop them.",
+    "user_id": 2,
+    "blog_id": 15
+  },
+  {
+    "content": "Agreed, Wonder Woman. The Legion of Doom may be powerful, but we're stronger together. We'll take them down.",
+    "user_id": 1,
+    "blog_id": 15
+  },
+  {
+    "content": "I'm with you all the way. The Legion of Doom may have the villains, but we have the heroes. We'll save the world.",
+    "user_id": 7,
+    "blog_id": 15
+  },
+  {
+    "content": "I'm ready for the fight. The Legion of Doom may have tech, but I have something better: heart. We'll win this.",
+    "user_id": 8,
+    "blog_id": 15
+  },
+  {
+    "content": "Let's do this. The Legion of Doom may have numbers, but we have something they don't: courage. We'll be victorious.",
+    "user_id": 6,
+    "blog_id": 15
   }
+  
 ]
