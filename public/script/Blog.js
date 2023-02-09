@@ -1,11 +1,5 @@
-class Blog {
-  constructor(title, content, userId) {
-    this.title = title;
-    this.content = content;
-    this.userId = userId;
-  }
-
-  async createBlog() {
+const Blog = {
+  create: async function() {
     const response = await fetch('/api/blogs', {
       method: 'POST',
       headers: {
@@ -25,9 +19,9 @@ class Blog {
     } else {
       console.error('Error creating blog:', response.statusText);
     }
-  }
+  },
 
-  async updateBlog(id) {
+  update: async function(id) {
     const response = await fetch(`/api/blogs/${id}`, {
       method: 'PUT',
       headers: {
@@ -46,9 +40,9 @@ class Blog {
     } else {
       console.error('Error updating blog:', response.statusText);
     }
-  }
+  },
 
-  async deleteBlog(id) {
+  delete: async function(id) {
     const response = await fetch(`/api/blogs/${id}`, {
       method: 'DELETE'
     });

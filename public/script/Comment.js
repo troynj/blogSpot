@@ -1,20 +1,14 @@
-class Comment {
-  constructor(content, userId, blogId) {
-    this.content = content;
-    this.userId = userId;
-    this.blogId = blogId;
-  }
-
-  async createComment() {
+const Comment = {
+   create : async function (content, user_id, blog_id) {
     const response = await fetch('/api/comments', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        content: this.content,
-        userId: this.userId,
-        blogId: this.blogId
+        content,
+        user_id,
+        blog_id,
       })
     });
 
@@ -25,18 +19,18 @@ class Comment {
     } else {
       console.error('Error adding comment:', response.statusText);
     }
-  }
+  },
 
-  async updateComment(id) {
+  update: async function (id, content, userId, blogId) {
     const response = await fetch(`/api/comments/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        content: this.content,
-        userId: this.userId,
-        blogId: this.blogId
+        content: content,
+        userId: userId,
+        blogId: blogId
       })
     });
 
@@ -46,9 +40,9 @@ class Comment {
     } else {
       console.error('Error updating comment:', response.statusText);
     }
-  }
+  },
 
-  async deleteComment(id) {
+  delete: async function(id) {
     const response = await fetch(`/api/comments/${id}`, {
       method: 'DELETE'
     });
@@ -60,5 +54,3 @@ class Comment {
     }
   }
 }
-
-module.exports = Comment
