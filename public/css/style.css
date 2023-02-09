@@ -1,24 +1,67 @@
-/* blog.css */
-header {
-  background-color: lightgray;
-  padding: 20px;
-  text-align: center;
+/* Navigation */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
-h1 {
-  font-size: 36px;
-}
-section {
-  padding: 20px;
-}
-article header {
-  margin-bottom: 20px;
-}
-h2 a {
-  color: black;
+
+nav a {
+  color: inherit;
   text-decoration: none;
 }
-footer {
-  background-color: lightgray;
-  padding: 20px;
+
+nav a + a {
+  margin-left: 1rem;
+}
+
+/* Main Content */
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h1{
+  font-size: 36px;
+}
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.dashboard {
+  /* background-color: rgb(55, 54, 54); */
   text-align: center;
+  margin: 5em;
+}
+/* Article */
+.comment,
+.blog__content,
+.content {
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.blog__content {
+  font-size: 20px;
+  word-spacing: 0.2em;
+  line-height: 1.2em;
+}
+
+.comment_author,
+.blog__author,
+.feint {
+  font-style: italic;
+  color: #999;
 }

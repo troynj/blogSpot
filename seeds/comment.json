@@ -365,79 +365,403 @@
     "blog_id": 12
   },
   {
+    "content" : "As Wonder Woman, I have dedicated my life to the pursuit of justice and the protection of the innocent. The Kingpin's actions are a clear threat to the people of New York and I will not stand idly by. My strength, speed, and combat skills are at your disposal, Spider-Man. Together, we will bring this criminal to justice.",
+    "user_id" : 2,
+    "blog_id" : 13
+  },
+  {
+    "content" : "Don't underestimate me because of my size, Spider-Man. As Ant-Man, I may be small, but I pack a big punch. I'm ready to take on the Kingpin and any other threats to the city. Let's show him that even the smallest hero can make a big impact.",
+    "user_id" : 5,
+    "blog_id" : 13
+  },
+  {
+    "content" : "The Kingpin is a threat to the safety and security of Gotham, and as Batman, it is my duty to stop him. I may not have webslinging abilities, but I have the resources, gadgets, and training necessary to take down even the toughest of criminals. I'll be there to lend my support, Spider-Man.",
+    "user_id" : 7,
+    "blog_id" : 13
+  },
+  {
+    "content" : "I have a unique perspective on crime and criminal activity. I may have a reputation for causing trouble, but I also have a mind for solving puzzles. If the Kingpin thinks he can outwit us, he's in for a surprise. I'll be happy to lend my intellect to the cause.",
+    "user_id" : 11,
+    "blog_id" : 13
+  },
+  {
+    "content" : "I have a reputation for being one step ahead of the law. But when it comes to the Kingpin, I'm happy to put my skills to use on the side of justice. I'll be there to lend my agility, stealth, and cunning to the cause. Let's show the Kingpin that he's no match for us.",
+    "user_id" : 12,
+    "blog_id" : 13
+  },
+  {
+    "content" : "As Wonder Woman, I couldn't agree more with Spider-Man. The protection of the innocent and the pursuit of justice is a noble cause and I am proud to stand by his side. The challenges may be tough, but together, we will overcome them and make a real difference in the world.",
+    "user_id" : 2,
+    "blog_id" : 14
+  },
+  {
+    "content" : "I may be small, but I know the importance of teamwork and unity. As Ant-Man, I stand with Spider-Man and our other allies in this fight against the Kingpin. Together, we will show the world what we're capable of and make a positive impact on the community.",
+    "user_id" : 5,
+    "blog_id" : 14
+  },
+  {
+    "content" : "As Batman, I represent the people of Gotham and I stand with Spider-Man in his mission to protect the citizens of New York. The fight for justice may be difficult, but we must not waver in the face of adversity. Together, we will make a real difference and restore peace to the city.",
+    "user_id" : 7,
+    "blog_id" : 14
+  },
+  {
+    "content" : "The Riddler is ready to lend his intellect and wit to the cause. As a master of puzzles and crime, I know the mind of a criminal like the Kingpin better than most. I stand with Spider-Man and our allies in this fight and I am confident that together, we will find a solution to this riddle.",
+    "user_id" : 11,
+    "blog_id" : 14
+  },
+  {
+    "content" : "I have a personal stake in taking down the Kingpin. I know the dangers of the criminal underworld better than most, and I won't hesitate to use my skills to protect the people of New York. I stand with Spider-Man and our allies in this fight, and together, we will bring the Kingpin to justice.",
+    "user_id" : 12,
+    "blog_id" : 14
+  },
+  {
+    "content" : "I know all too well the importance of having allies in the fight against evil. While the mystic arts give me great power, I cannot do it all alone. I am grateful for the support of my fellow heroes and for the bonds we have forged in our shared mission to protect the world. Together, we are a force to be reckoned with.",
+    "user_id" : 6,
+    "blog_id" : 15
+  },
+  {
+    "content" : " I couldn't agree more with Spider-Man's words. The support of my trusty sidekick Robin and the rest of the Bat-Family is invaluable. Whether it's taking down the Joker or facing off against other threats, I know I can always count on their help. The power of friendship and teamwork is what keeps the Caped Crusader going.",
+    "user_id" : 7,
+    "blog_id" : 15
+  },
+  {
+    "content" : "I am honored to stand alongside my mentor, Batman, and my fellow heroes in the fight against evil. The bonds we share and the support we give each other is what makes us stronger and enables us to overcome even the toughest challenges. I am grateful for the power of friendship and teamwork and will always stand with my allies.",
+    "user_id" : 8,
+    "blog_id" : 15
+  },
+  {
+    "content" : "I understand the importance of having a strong support system. The Amazons of Themyscira have taught me the value of teamwork and friendship, and I am grateful to have found the same camaraderie with my fellow heroes. Together, we are an unstoppable force in the fight for justice.",
+    "user_id" : 1,
+    "blog_id" : 15
+  },
+  {
+    "content" : "Great job, Wonder Woman! We need more heroes like you to stand up for justice. I'll do my part by running circles around Ares and his minions. Let's bring him down together!",
+    "user_id" : 8,
+    "blog_id" : 16
+  },
+  {
+    "content" : "Ha! This Ares guy sounds like a real laugh riot. I'd love to see him in action. Maybe I'll pay him a visit and see what all the fuss is about.",
+    "user_id" : 9,
+    "blog_id" : 16
+  },
+  {
+    "content" : "Interesting... Wonder Woman seems to have her hands full with this Ares character. I wonder what riddles I could pose to him to keep him on his toes",
+    "user_id" : 11,
+    "blog_id" : 16
+  },
+  {
+    "content" : "ARES BAD! HULK SMASH ARES! WONDER WOMAN AND HULK TEAM UP AND SMASH ARES TOO",
+    "user_id" : 3,
+    "blog_id" : 16
+  },
+  {
+    "content" : "Awesome, Wonder Woman! It's great to see the Amazonian community coming together and becoming stronger. We need more unity and collaboration in the world today.",
+    "user_id" : 8,
+    "blog_id" : 17
+  },
+  {
+    "content" : "Oh boy, a growing community of strong women? This sounds like a party waiting to happen. I can't wait to see what chaos I can stir up!",
+    "user_id" : 9,
+    "blog_id" : 17
+  },
+  {
+    "content" : "Fascinating. The growth of the Amazonian community is a riddle in and of itself. How did they become so successful, and what can we learn from their example?",
+    "user_id" : 11,
+    "blog_id" : 17
+  },
+  {
+    "content" : "AMAZONIANS STRONG! HULK LIKE STRONG WOMEN. HULK BE FRIEND TO AMAZONIANS.",
+    "user_id" : 3,
+    "blog_id" : 17
+  },
+  {
+    "content" : "Wow, Wonder Woman. Your words are truly inspiring. We need more leaders who understand the importance of compassion and understanding in today's world.",
+    "user_id" : 8,
+    "blog_id" : 18
+  },
+  {
+    "content" : "Compassion and understanding? BOR-ING. I prefer a little chaos and unpredictability in my life. But hey, to each their own, I suppose.",
+    "user_id" : 9,
+    "blog_id" : 18
+  },
+  {
+    "content" : "Ah, the age-old question of nature vs. nurture. Can people really change, or are they doomed to repeat their mistakes? Food for thought, Wonder Woman.",
+    "user_id" : 11,
+    "blog_id" : 18
+  },
+  {
+    "content" : "HULK UNDERSTAND COMPASSION. HULK LIKE WHEN PEOPLE ARE NICE. HULK SMASH WHEN PEOPLE ARE MEAN.",
+    "user_id" : 3,
+    "blog_id" : 18
+  },
+  {
     "content": "I'm with you, Hulk. The Joker war is a disaster. We have to stop him, no matter what it takes. The city needs us",
     "user_id": 2,
-    "blog_id": 13
+    "blog_id": 19
   },
   {
     "content": "I agree, Wonder Woman. The Joker's taken things too far this time. But we won't give up. We'll fight until Gotham's safe again",
-    "user_id": 14,
-    "blog_id": 6
+    "user_id": 7,
+    "blog_id": 19
   },
   {
     "content": "Count me in, I'll do whatever it takes to stop the Joker. Gotham needs us now more than ever",
-    "user_id": 13,
-    "blog_id": 7
+    "user_id": 8,
+    "blog_id": 19
   },
   {
     "content": "I'm ready for action. The Joker may be a clown, but he's a dangerous one. We'll take him down",
     "user_id": 8,
-    "blog_id": 13
+    "blog_id": 19
   },
   {
     "content": "You can count on me, I'll fight by your side. The Joker's reign of terror ends now.",
     "user_id": 3,
-    "blog_id": 13
+    "blog_id": 19
   },
   {
     "content": "It's a sad day, Hulk. We've lost a hero, but his legacy will live on. We have to carry on in his memory",
     "user_id": 2,
-    "blog_id": 14
+    "blog_id": 20
   },
   {
     "content": "I couldn't agree more, Wonder Woman. The Man of Steel may be gone, but he'll always be remembered. He'll always be our hero",
     "user_id": 5,
-    "blog_id": 14
+    "blog_id": 20
   },
   {
     "content": "I'll miss him too. He was more than a hero, he was a symbol of hope. But we have to keep his spirit alive.",
     "user_id": 7,
-    "blog_id": 14
+    "blog_id": 20
   },
   {
     "content": "The world's a little darker without him, but we'll keep shining his light. We'll keep fighting for justice.",
     "user_id": 8,
-    "blog_id": 14
+    "blog_id": 20
   },
   {
     "content": "We've lost a friend and a mentor, but his memory will inspire us to be better. We'll honor him by doing what's right",
     "user_id": 1,
-    "blog_id": 14
+    "blog_id": 20
   },
   {
     "content": "It's worse than I thought, Hulk. The Legion of Doom is a threat to everything we stand for. We have to stop them.",
     "user_id": 2,
-    "blog_id": 15
+    "blog_id": 21
   },
   {
     "content": "Agreed, Wonder Woman. The Legion of Doom may be powerful, but we're stronger together. We'll take them down.",
     "user_id": 1,
-    "blog_id": 15
+    "blog_id": 21
   },
   {
     "content": "I'm with you all the way. The Legion of Doom may have the villains, but we have the heroes. We'll save the world.",
     "user_id": 7,
-    "blog_id": 15
+    "blog_id": 21
   },
   {
     "content": "I'm ready for the fight. The Legion of Doom may have tech, but I have something better: heart. We'll win this.",
     "user_id": 8,
-    "blog_id": 15
+    "blog_id": 21
   },
   {
     "content": "Let's do this. The Legion of Doom may have numbers, but we have something they don't: courage. We'll be victorious.",
     "user_id": 6,
-    "blog_id": 15
-  }
-  
+    "blog_id": 21
+  },
+  {
+    "content": "Count me in, Thor! I'll swing by and lend a hand. The safety of our world is at stake, and I'm not about to let that fall by the wayside.",
+    "user_id": 1,
+    "blog_id": 22
+  },
+  {
+    "content": "HULK SMASH MALEKITH! HULK JOIN THOR IN BATTLE!",
+    "user_id": 3,
+    "blog_id": 22
+  },
+  {
+    "content": "Interesting. I may have some resources at my disposal that could be useful in this fight against Malekith. But, I expect something in return for my help.",
+    "user_id": 10,
+    "blog_id": 22
+  },
+  {
+    "content": "Oh, I'm intrigued. A puzzle wrapped in an enigma surrounded by a threat. Let me see if I can solve this one. Perhaps I'll even lend a hand, if it proves to be a worthy challenge.",
+    "user_id": 11,
+    "blog_id": 22
+  },
+  {
+    "content": "You can count on me, Thor! I may not have a hammer or super strength, but I have my spider-powers and quick wit. Let's do this!",
+    "user_id": 1,
+    "blog_id": 23
+  },
+  {
+    "content": "HULK READY TO SMASH! THOR AND HULK MAKE GREAT TEAM!",
+    "user_id": 3,
+    "blog_id": 23
+  },
+  {
+    "content": "Ha! Another opportunity for me to prove my superiority. I'll join in, but don't expect me to lift a finger without getting something in return.",
+    "user_id": 10,
+    "blog_id": 23
+  },
+  {
+    "content": "Oh, I do love a good challenge. But I have to admit, this is quite a conundrum. How do I solve a problem like Midgard? I'll have to think on this one, but I may just have a trick or two up my sleeve to contribute to the cause.",
+    "user_id": 11,
+    "blog_id": 23
+  },
+  {
+    "content": "As Princess of the Amazons, I am proud to stand with the Avengers. My lasso of truth, bracelets of victory, and unwavering sense of justice will be at your side, Thor. Together, we shall defend Midgard.",
+    "user_id": 2,
+    "blog_id": 24
+  },
+  {
+    "content": "As Sorcerer Supreme, I am honored to lend my mystical abilities to the cause. The mystical and the mundane must work together if we hope to overcome this threat to Midgard.",
+    "user_id": 6,
+    "blog_id": 24
+  },
+  {
+    "content": "As the Boy Wonder, I have learned the importance of teamwork from the Dark Knight himself. I may not have superpowers, but I have quick reflexes, fighting skills, and a thirst for justice. I'm ready to fight for what's right.",
+    "user_id": 8,
+    "blog_id": 24
+  },
+  {
+    "content": "I may not be one for the whole 'teamwork' thing, but this situation is worth making an exception for. I have a few tricks up my sleeve that could come in handy. Let's see if we can save Midgard, and maybe have a little fun while we're at it.",
+    "user_id": 12,
+    "blog_id": 24
+  },
+  {
+    "content": "Ant-Man may be small, but he's got a big heart. He's proved time and time again that size doesn't matter when it comes to being a hero.",
+    "user_id": 3,
+    "blog_id": 25
+  },
+  {
+    "content": "Scott may not have the gadgets or the training that I have, but he has something that's just as important - determination. His unwavering commitment to doing what's right is an inspiration.",
+    "user_id": 7,
+    "blog_id": 25
+  },
+  {
+    "content": "Being a hero isn't always about having the biggest muscles or the most advanced technology. Ant-Man shows that you can still make a huge impact with a little creativity and a lot of heart.",
+    "user_id": 1,
+    "blog_id": 25
+  },
+  {
+    "content": "As Princess of the Amazons, I know that courage and strength come in many forms. Ant-Man's bravery and determination make him a true hero, regardless of his size.",
+    "user_id": 12,
+    "blog_id": 25
+  },
+  {
+    "content": "Family is everything. They give you a reason to fight and the strength to keep going, no matter what.",
+    "user_id": 3,
+    "blog_id": 26
+  },
+  {
+    "content": "Scott is right, it's not just about the people who have your back in the heat of battle, but the ones who are there for you every day. Family is what gives us the support we need to keep going.",
+    "user_id": 7,
+    "blog_id": 26
+  },
+  {
+    "content": "I can relate to Scott on this one. My Aunt May is the reason I keep fighting, even when things get tough. Family gives us the motivation to be our best selves.",
+    "user_id": 1,
+    "blog_id": 26
+  },
+  {
+    "content": "As an Amazon warrior, I understand the importance of community. Our families give us the love and support we need to face any challenge, no matter how difficult.",
+    "user_id": 12,
+    "blog_id": 26
+  },
+  {
+    "content": "Ant-Man's legacy will live on long after he's gone. He's shown that anyone can be a hero, no matter their size or background.",
+    "user_id": 3,
+    "blog_id": 27
+  },
+  {
+    "content": "Scott is setting an example for future generations. He's proven that anyone can make a difference and that it's never too late to do the right thing.",
+    "user_id": 7,
+    "blog_id": 27
+  },
+  {
+    "content": "The Ant-Man mantle will continue to inspire new heroes for years to come. Scott's determination and bravery will be remembered for a long time.",
+    "user_id": 1,
+    "blog_id": 27
+  },
+  {
+    "content": "Scott's legacy will be one of courage and determination. He has shown that being a hero is not about having superpowers, but about doing what's right and standing up for what you believe in.",
+    "user_id": 12,
+    "blog_id": 27
+  },
+  {
+    "content": "Ha! Finally, a chance to prove myself superior. I'll find a way to defeat the New Gods and show the world who the real mastermind is.",
+    "user_id": 10,
+    "blog_id": 28
+  },
+  {
+    "content": "I love a good challenge. The New Gods may have taken over the multiverse, but I'm confident I can outsmart them.",
+    "user_id": 11,
+    "blog_id": 28
+  },
+  {
+    "content": "This could be an opportunity for some profitable heists. I'll be keeping a close eye on the situation.",
+    "user_id": 12,
+    "blog_id": 28
+  },
+  {
+    "content": "The New Gods may be powerful, but they have yet to face the might of Thor! I shall crush them and restore balance to the cosmos.",
+    "user_id": 4,
+    "blog_id": 28
+  },
+  {
+    "content": "Size may not matter, but smarts do! I'll use my shrinking ability to sneak into their stronghold and take them down from the inside.",
+    "user_id": 5,
+    "blog_id": 28
+  },
+  {
+    "content": "Finally, a chance to prove my intellect. I'll find a way to unravel the Anti-Life Equation and show the world that I'm the smartest man alive",
+    "user_id": 10,
+    "blog_id": 29
+  },
+  {
+    "content": "This sounds like a riddle waiting to be solved. I'll unravel the secrets of the Anti-Life Equation and prove that I'm the greatest enigma of all.",
+    "user_id": 11,
+    "blog_id": 29
+  },
+  {
+    "content": "I'm not one to get involved in cosmic struggles, but I might make an exception for a hefty payout. I'll keep my ears open for any opportunities",
+    "user_id": 12,
+    "blog_id": 29
+  },
+  {
+    "content": "The Anti-Life Equation may be powerful, but it has yet to face the fury of Thor! I'll smash it to pieces and restore balance to the universe.",
+    "user_id": 4,
+    "blog_id": 29
+  },
+  {
+    "content": "This may be a big challenge, but I've faced bigger. I'll use my shrinking ability to sneak into the Anti-Life Equation's core and dismantle it from the inside.",
+    "user_id": 5,
+    "blog_id": 29
+  },
+  {
+    "content": "Finally, a chance to show my power. I'll find a way to defeat the Dark Multiverse and show the world that I'm the greatest genius of all.",
+    "user_id": 10,
+    "blog_id": 30
+  },
+  {
+    "content": "This sounds like a puzzle waiting to be solved. I'll unravel the secrets of the Dark Multiverse and prove that I'm the greatest enigma of all.",
+    "user_id": 11,
+    "blog_id": 30
+  },
+  {
+    "content": "I'm not one to get involved in cosmic struggles, but I might make an exception for a profitable haul. I'll keep my eyes peeled for any opportunities.",
+    "user_id": 12,
+    "blog_id": 30
+  },
+  {
+    "content": "The Dark Multiverse may be powerful, but it has yet to face the might of Thor! I'll crush it and restore balance to the universe.",
+    "user_id": 4,
+    "blog_id": 30
+  },
+  {
+    "content": "This may be a big challenge, but I've faced bigger. I'll use my shrinking ability to sneak into the Dark Multiverse's core and dismantle it from the inside.",
+    "user_id": 5,
+    "blog_id": 30
+  }  
 ]

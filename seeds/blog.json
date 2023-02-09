@@ -60,6 +60,36 @@
     "user_id": 12
   },
   {
+    "title": "Swinging into Action to Stop the Kingpin",
+    "content": "Hey there, Web-heads! It's your friendly neighborhood Spider-Man reporting for duty. I've got some exciting news to share with you all. The Kingpin, one of New York's most notorious criminals, has been up to his usual tricks. But don't worry, I'm on the case. With my webslinging abilities and quick reflexes, I'm ready to take him down and restore peace to the city. I won't stop until justice is served, and I need your support. If you see anything suspicious, don't hesitate to give me a call. I'll be there in a flash!",
+    "user_id": 1
+  },
+  {
+    "title": "Fighting for Truth and Justice in the Big Apple",
+    "content": "As Spider-Man, I've made it my mission to protect the citizens of New York City and fight for truth and justice. It's not always easy, but it's worth it when I see the positive impact I'm making on the community.I 've faced some tough challenges lately, but I won't give up. I'll keep fighting for what's right, no matter what obstacles I face. And with the help of my friends and allies, I know we can make a real difference. So let's swing into action and show the world what we're made of!",
+    "user_id": 1
+  },
+  {
+    "title": "The Power of Friendship and Teamwork",
+    "content": "Being a superhero can be lonely sometimes, but I'm lucky to have a supportive network of friends and allies who have my back. Whether it's working with other heroes like Iron Man or relying on the expertise of J. Jonah Jameson, I know that I can always count on the people in my life to help me save the day. The power of friendship and teamwork can't be underestimated. It's what keeps me going when things get tough and what helps me overcome the toughest challenges. So let's all remember to cherish the relationships we have and support each other, because together we can achieve anything.",
+    "user_id": 1
+  },
+  {
+    "title": "The Battle Against Ares Rages On",
+    "content": "Greetings, fellow warriors of justice. It is with a heavy heart that I must report that the battle against Ares, the God of War, continues to rage on. Despite our best efforts, this malicious deity remains a threat to the safety and peace of our world. However, I remain steadfast in my determination to defeat him. Together with my fellow Amazons, I will not rest until Ares is defeated and the world is free from his tyranny. I call upon all those who believe in truth and justice to join us in this fight. Let us stand together, united against a common enemy.",
+    "user_id": 2
+  },
+  {
+    "title": "The Amazonian Community Grows Stronger",
+    "content": "The Amazonian community grows stronger every day, with new warriors joining our ranks and old friends returning to lend their strength and support. Our sisterhood is a source of pride and inspiration to us all, and I am honored to lead such a powerful and dedicated group of women. We are constantly working to improve and protect our community, whether by training new recruits or strengthening our defenses against outside threats. It is through this collaboration and support that we will emerge victorious in the battles to come.",
+    "user_id": 2
+  },
+  {
+    "title": "The Importance of Compassion and Understanding",
+    "content": "As we continue to wage war against those who seek to harm us and the world we protect, it is important to remember that compassion and understanding should never be forgotten. These qualities are what set us apart from our enemies, and they are what make us truly powerful. We must strive to understand those around us, even those who may appear to be our enemies. Only then can we hope to find common ground and resolve conflicts peacefully. We are not just warriors, but ambassadors of peace and hope.   Let us never forget that our true strength lies in our ability to show compassion and understanding to those around us. This is the true power of the Amazonian people, and it is a power that will continue to endure.",
+    "user_id": 2
+  },
+  {
     "title": "The Joker War Takes Over Gotham: A Hulk's Eye View",
     "content": "Bruh, the Joker war has taken over Gotham and it's a mess. The Clown Prince of Crime has declared war on the city and it's up to the Bat and his allies to stop him. But let me tell ya, the Joker's got some tricks up his sleeve. He's taken control of the city's infrastructure and the citizens are living in fear. It's not just the Bat and his team who are fighting back though, even Harley Quinn's getting in on the action. It's chaos out here, but the heroes won't give up. They'll stop the Joker and bring peace back to Gotham.",
     "user_id": 3
@@ -75,18 +105,48 @@
     "user_id": 3
   },
   {
+    "title" : "The Asgardian Threat Looms Large",
+    "content" : "Greetings, mortals! Thor, God of Thunder, here to share some troubling news with you all. A great threat has arisen in Asgard, and it threatens to spill over into your realm. The evil Malekith, ruler of the Dark Elves, has set his sights on the Tesseract, a powerful artifact with the ability to destroy entire worlds. I cannot allow this to happen, and I will do everything in my power to stop him. But I cannot do it alone. I call upon all those who value the safety and security of their world to stand with me. Together, we shall face this threat and emerge victorious!",
+    "user_id" : 4
+  },
+  {
+    "title" : "The Battle for Midgard Continues",
+    "content" : "It has been a long and arduous road, but the battle for Midgard rages on. As Thor, it is my duty to defend this realm from harm, and I will not rest until the job is done. With the help of my comrades in the Avengers and my trusty hammer, Mjolnir, I will face any challenge that comes my way. Whether it's battling the forces of darkness or protecting innocent lives, I am ready for the task at hand. But I cannot do it without your help. Stand with me, mortals, and let us ensure a bright and prosperous future for Midgard.",
+    "user_id" : 4
+  },
+  {
+    "title" : "The Power of Friendship and Unity",
+    "content" : "It is said that there is strength in numbers, and this has never been more true than in the battles I have fought. The support and camaraderie of my allies in the Avengers have been instrumental in our victories. From Iron Man's technological savvy to Captain America's unwavering courage, each member brings a unique set of skills to the table. But what truly sets us apart is our unbreakable bond. It is this bond, this sense of unity and friendship, that allows us to overcome even the greatest obstacles. So let us continue to stand together, for the fate of Midgard depends on it.",
+    "user_id" : 4
+  },
+  {
+    "title" : "The Power of Ants: An Unlikely Hero's Journey",
+    "content" : "Hello, my name is Scott Lang, but you may know me as Ant-Man. I never imagined I would become a superhero, but sometimes life takes you on unexpected journeys. When I first discovered the Ant-Man suit and its ability to shrink down to the size of an ant while retaining my strength, I was skeptical. However, as I grew into the role, I came to realize the immense power and potential that came with being Ant-Man. Whether I'm infiltrating secure facilities or battling giant threats, my size gives me an advantage that others don't have. And with my trusty army of ants at my command, there's not much that can stop me.",
+    "user_id" : 5
+  },
+  {
+    "title" : "The Importance of Family",
+    "content" : "Being a superhero is not just about having powers and saving the world, it's about the people in your life who support you. My daughter Cassie and ex-wife Maggie have been my rock through everything. They remind me of what's truly important and give me the courage to face whatever challenges come my way. And it's not just my immediate family, but the Avengers as well. Iron Man, Captain America, and the rest of the gang have become more than just allies, they've become my friends and my family. It's this sense of community and belonging that keeps me going when things get tough.",
+    "user_id" : 5
+  },
+  {
+    "title" : "The Ant-Man Legacy",
+    "content" : "As I look back on my journey as Ant-Man, I am proud of what I have accomplished. From being a petty criminal to becoming a hero, it's been a wild ride. But my journey is not over yet. There are still many threats to our world that need to be faced, and I am ready to face them. And when I'm gone, I hope that someone will take up the mantle of Ant-Man and continue the legacy that I have started. Whether it's my daughter Cassie or someone else, I believe that there will always be an Ant-Man to defend our world and protect what's right. The future is bright, and the future is small.",
+    "user_id" : 5
+  },
+  {
     "title": "The New Gods Take Over the Multiverse",
     "content": "Greetings, fellow beings. The world has shifted, and a new power has arisen. The New Gods have taken control of the multiverse, and their reign of terror knows no bounds. The balance of the cosmos is in peril, and it is up to us to restore order. The New Gods possess immense power, but I have seen beyond the veil of reality and I know that they can be defeated. I will use my sorcery to unlock the secrets of the multiverse and find a way to defeat the New Gods and save the cosmos.",
-    "user_id": 3
+    "user_id": 6
   },
   {
     "title": "The Rise of the Anti-Life Equation",
     "content": "Attention all, a great threat has appeared on the horizon. The Anti-Life Equation has risen, and it seeks to extinguish all free will and enslave the universe. It is a force beyond our comprehension, and its power is growing by the moment. But fear not, for I have glimpsed its true nature, and I know that it can be stopped. I will use my knowledge of the mystic arts to unravel the Anti-Life Equation and prevent it from destroying all that we hold dear.",
-    "user_id": 3
+    "user_id": 6
   },
   {
     "title": "The Dark Multiverse Invades",
     "content": "Greetings, my friends. The universe is facing a new and terrifying threat. The Dark Multiverse has opened its gates, and its inhabitants have begun their invasion. They seek to claim our world and plunge it into eternal darkness. But we will not stand idly by. I have journeyed to the farthest reaches of the multiverse, and I know that the Dark Multiverse can be defeated. I will use my mastery of the mystic arts to close the gates of the Dark Multiverse and prevent its inhabitants from taking over our world.",
-    "user_id": 3
+    "user_id": 6
   }
 ]

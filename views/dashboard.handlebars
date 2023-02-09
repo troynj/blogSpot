@@ -1,26 +1,8 @@
-<!-- Dashboard.html -->
-<html>
-  <head>
-    <title>Blog Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="dashboard.css">
-  </head>
-  <body>
-    <header>
-      <h1>Blog Dashboard</h1>
-    </header>
-    <main>
-      <section>
-        <h2>Author: <a href="../user/{{data.id}}">{{data.name}}</a> </h2>
-        <table>
-         {{#each data.blogs as |blog|}}
-         {{!-- <div>{{data.id}}</div> --}}
-{{> dashboard-details}}
-{{/each}}
-        </table>
-      </section>
-    </main>
-    <footer>
-      {{!-- <p>Copyright © YYYY</p> --}}
-    </footer>
-  </body>
-</html>
+<section class ="dashboard">
+  <h1><a href="../user/{{data.id}}">{{data.name}}</a> </h1>
+  <table>
+    {{#each data.blogs as |blog|}}
+    {{> dashboard-details}}
+    {{/each}}
+  </table>
+</section>
