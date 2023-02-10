@@ -18,7 +18,7 @@ async function addComment(event) {
 
   const commentEl = document.getElementById("comment_input").value;
   const userId = 1;
-  const blogId = document.getElementsByClassName("blog__content").id;
+  const blogId = document.querySelector(".blog__content").id;
   const comment = { content: commentEl, user_id: userId, blog_id: blogId };
   console.log("adding new comment");
   console.log(comment);
