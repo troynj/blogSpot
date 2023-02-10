@@ -1,35 +1,49 @@
-/* Navigation */
+:root {
+  --primary-color: #333;
+  --secondary-color: #fff;
+  --accent-color: #f2f2f2;
+  --text-color: #999;
+  --font-size-small: 16px;
+  --font-size-medium: 20px;
+  --font-size-large: 36px;
+  --line-height: 1.2em;
+  --spacing-small: 1rem;
+  --spacing-medium: 2rem;
+  --spacing-large: 5em;
+  --radius: 0.5rem;
+  --modal-background: rgba(0, 0, 0, 0.4);
+  --modal-border: 1px solid #888;
+  --modal-width: 80%;
+}
+
 nav {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: var(--spacing-small);
 }
 
 nav a {
   color: inherit;
   text-decoration: none;
-}
-
-nav a + a {
   margin-left: 1rem;
 }
 
-/* Main Content */
 main {
   max-width: 700px;
-  margin: 2rem auto;
-  padding: 1rem;
+  margin: var(--spacing-medium) auto;
+  padding: var(--spacing-small);
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: var(--spacing-medium);
 }
 
-h1{
-  font-size: 36px;
+h1 {
+  font-size: var(--font-size-large);
 }
+
 h2 {
   margin-bottom: 0.5rem;
 }
@@ -37,63 +51,56 @@ h2 {
 a:hover {
   text-decoration: underline;
 }
+
 .dashboard {
-  /* background-color: rgb(55, 54, 54); */
   text-align: center;
-  margin: 5em;
+  margin: var(--spacing-large);
 }
-/* Article */
-.comment,
-.blog__content,
+
 .content {
-  background-color: #f2f2f2;
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: 16px;
+  background-color: var(--accent-color);
+  border-radius: var(--radius);
+  margin-bottom: var(--spacing-small);
+  padding: var(--spacing-small);
+  font-size: var(--font-size-small);
 }
 
 .blog__content {
-  font-size: 20px;
+  font-size: var(--font-size-medium);
   word-spacing: 0.2em;
-  line-height: 1.2em;
+  line-height: var(--line-height);
 }
 
-.comment_author,
-.blog__author,
 .feint {
   font-style: italic;
-  color: #999;
+  color: var(--text-color);
 }
- /* modal */
- .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: var(--modal-background);
 }
 
-/* Modal Content */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  border: var(--modal-border);
+  width: var(--modal-width);
 }
 
-/* The Close Button */
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 28px
 }
 
 .close:hover,
@@ -101,4 +108,35 @@ a:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+button[type="submit"]{
+  outline: 2px solid black;
+}
+
+button[type="submit"]:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.authentication {
+  margin: 5rem;
+  line-height: 2rem;
+}
+
+.content>h2 {
+  margin-bottom: 1rem;
+}
+
+.authentication>article>* {
+  text-align: center;
+  width: 100px;
+  margin: auto;
+}
+
+.authentication>article>form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1rem;
 }

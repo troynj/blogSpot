@@ -33,7 +33,10 @@ const { Blog, Comment, User } = require('../../models');
 router.post('/', async (req, res) => {
   try {
     const commentData = await Comment.create(req.body);
+    console.log("comment data from client")
+    console.log(commentData)
     res.status(200).json(commentData);
+    console.log(commentData)
   } catch (err) {
     res.status(400).json(err);
   }
