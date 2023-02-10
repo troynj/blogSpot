@@ -13,12 +13,16 @@ TBA: [Walk Through Video]()
 
 # General Info
 
-- This is a complete backend application for an eCommerce website
+- This is a complete backend application for a blog website
 
 # Technologies
 
 - This website was created with HTML, CSS, Javascript, Node JS, and Express on Microsoft Visual Studio Code.
-
+bcrypt
+dotenv
+express
+nodemon
+sequelize
 # Installation
 
 - Go to https://github.com/tnj415/blogSpot and copy the repository on Github by clicking the green code button.

@@ -1,32 +1,26 @@
-class User {
-  constructor(name, password) {
-    this.name = name;
-    this.password = password;
-  }
-
-  async createUser() {
-    const response = await fetch('/api/users', {
+const User = {
+  create: async function(name, password) {
+    const response = await fetch('/api/user', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        name: this.name,
-        password: this.password
+        name,
+        password,
       })
     });
 
     if (response.ok) {
       const data = await response.json();
-      this.id = data.id;
       console.log('User created successfully:', data);
     } else {
       console.error('Error creating user:', response.statusText);
     }
-  }
+  },
 
-  async updateUser(id) {
-    const response = await fetch(`/api/users/${id}`, {
+  update: async function(id) {
+    const response = await fetch(`/api/user/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
@@ -43,9 +37,9 @@ class User {
     } else {
       console.error('Error updating user:', response.statusText);
     }
-  }
+  },
 
-  async deleteUser(id) {
+  delete: async function(id) {
     const response = await fetch(`/api/users/${id}`, {
       method: 'DELETE'
     });
@@ -57,3 +51,18 @@ class User {
     }
   }
 }
+
+//add user
+document.getElementById("su").addEventListener("click", function (event) {
+
+
+  event.preventDefault();
+  const nameEl = document.getElementById("su_name").value;
+  const passwordEl = document.getElementById("su_password").value;
+  const cpasswordEl = document.getElementById("su_password-confirm").value;
+  console.log(nameEl, passwordEl, cpasswordEl)
+  // if (nameEl && passwordEl && passwordEl === cpasswordEl) {
+User.create(nameEl, passwordEl);
+  //document.location.reload();
+  // }
+});

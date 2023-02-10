@@ -30,6 +30,13 @@ nav a {
   margin-left: 1rem;
 }
 
+nav button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
 main {
   max-width: 700px;
   margin: var(--spacing-medium) auto;
@@ -108,14 +115,6 @@ a:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
-
-button[type="submit"]{
-  outline: 2px solid black;
-}
-
-button[type="submit"]:hover{
-  background-color: rgb(255, 255, 255);
 }
 
 .authentication {

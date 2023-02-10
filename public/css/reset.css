@@ -48,7 +48,7 @@ table {
   border-spacing: 0;
 }
 
-button, input, select, textarea {
+input, select, textarea {
   margin: 0;
   font-size: 100%;
   font: inherit;
@@ -64,12 +64,12 @@ form {
   vertical-align: baseline;
 }
 
-button {
+/* button {
   background-color: transparent;
   border: none;
   cursor: pointer;
   outline: none;
-}
+} */
 
 a {
   text-decoration: none;

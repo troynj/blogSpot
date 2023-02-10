@@ -4,5 +4,17 @@
     {{#each data.blogs as |blog|}}
     {{> dashboard-details}}
     {{/each}}
+    <button id="add_blog">Add A Blog Post</button>
+    <div id="blogModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+  <input id="title" placeholder="Title">
+    <br><br>
+    <form action="input" id="add_blog_form">
+      <textarea name="blog" id="blog_input" cols="30" rows="10"></textarea>
+  <button id="submit_blog">Post</button>
+  </form>
+  </div>
+</div>
   </table>
 </section>
