@@ -20,26 +20,26 @@ const Blog = {
     }
   },
 
-  update: async function(id) {
-    const response = await fetch(`/api/blog/${id}`, {
-      method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        title: this.title,
-        content: this.content,
-        userId: this.userId
-      })
-    });
-
-    if (response.ok) {
-      const data = await response.json();
-      console.log('Blog updated successfully:', data);
-    } else {
-      console.error('Error updating blog:', response.statusText);
-    }
-  },
+  // update: async function(id) {
+  //   const response = await fetch(`/api/blog/${id}`, {
+  //     method: 'PUT',
+  //     headers: {
+  //       'Content-Type': 'application/json'
+  //     },
+  //     body: JSON.stringify({
+  //       title,
+  //       content,
+  //       user_id,
+  //     })
+  //   }); 
+  //
+  //   if (response.ok) {
+  //     const data = await response.json();
+  //     console.log('Blog updated successfully:', data);
+  //   } else {
+  //     console.error('Error updating blog:', response.statusText);
+  //   }
+  // },
 
   delete: async function(id) {
     const response = await fetch(`/api/blog/${id}`, {
@@ -62,10 +62,11 @@ document
   .getElementById("add_blog_form")
   .addEventListener("submit", addBlog);  
 
+  //grab data and fetch
 async function addBlog(event) {
   event.preventDefault();
   const titleEl = document.getElementById("title").value;
-  const blogEl = document.getElementById("blog_input").value;
+  const blogEl = document.getElementById("blog_input").value;``
   const userId = 1;
   console.log( titleEl, blogEl)
   if (titleEl && blogEl) {

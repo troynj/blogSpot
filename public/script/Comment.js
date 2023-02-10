@@ -1,6 +1,6 @@
 const Comment = {
   create: async function (content, user_id, blog_id) {
-    console.log(content, user_id, blog_id);
+
     const response = await fetch("/api/comment", {
       method: "POST",
       headers: {
@@ -22,26 +22,26 @@ const Comment = {
     }
   },
 
-  update: async function (id, content, user_id, blog_id) {
-    const response = await fetch(`/api/comment/${id}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        content,
-        user_id,
-        blog_id,
-      }),
-    });
+  // update: async function (id, content, user_id, blog_id) {
+  //   const response = await fetch(`/api/comment/${id}`, {
+  //     method: "PUT",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify({
+  //       content,
+  //       user_id,
+  //       blog_id,
+  //     }),
+  //   });
 
-    if (response.ok) {
-      const data = await response.json();
-      console.log("Comment updated successfully:", data);
-    } else {
-      console.error("Error updating comment:", response.statusText);
-    }
-  },
+  //   if (response.ok) {
+  //     const data = await response.json();
+  //     console.log("Comment updated successfully:", data);
+  //   } else {
+  //     console.error("Error updating comment:", response.statusText);
+  //   }
+  // },
 
   delete: async function (id) {
     const response = await fetch(`/api/comment/${id}`, {
@@ -67,6 +67,7 @@ document.getElementById("add_comment").addEventListener("click", function () {
     .getElementById("add_comment_form")
     .addEventListener("submit", addComment);
 
+    //grab data and fetch
   async function addComment(event) {
     event.preventDefault();
     const commentEl = document.getElementById("comment_input").value;
