@@ -21,16 +21,16 @@ const Comment = {
     }
   },
 
-  update: async function (id, content, userId, blogId) {
+  update: async function (id, content, user_id, blog_id) {
     const response = await fetch(`/api/comments/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        content: content,
-        userId: userId,
-        blogId: blogId
+        content,
+        user_id,
+        blog_id
       })
     });
 

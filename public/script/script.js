@@ -19,11 +19,11 @@ async function addComment(event) {
   const commentEl = document.getElementById("comment_input").value;
   const userId = 1;
   const blogId = document.querySelector(".blog__content").id;
-  const comment = { content: commentEl, user_id: userId, blog_id: blogId };
+  // const comment = { content: commentEl, user_id: userId, blog_id: blogId };
   console.log("adding new comment");
-  console.log(comment);
-
-  Comment.create(commentEl, userId, blogId)
+  // console.log(comment);
+console.log(commentEl, userId, blogId)
+  // Comment.create(commentEl, userId, blogId)
   
 
   document.location.reload();
