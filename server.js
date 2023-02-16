@@ -19,10 +19,6 @@ const sql = require("./config/connection");
 // Create a new instance of the Express-Handlebars engine
 const hbs = exphbs.create({});
 
-// Tell the Express app to use the handlebars engine and set the view engine to handlebars
-app.engine("handlebars", hbs.engine);
-app.set("view engine", "handlebars");
-
 // Parse JSON request bodies
 app.use(express.json());
 
@@ -40,19 +36,25 @@ const SequelizeStore = require("connect-session-sequelize")(session.Store);
 
 // Configure the session store
 const sess = {
-secret: "Super secret secret",
-cookie: {
-  maxAge: 86400,
-},
-resave: false,
-saveUninitialized: false,
-store: new SequelizeStore({
-db: sql,
-}),
+  secret: "Super secret secret",
+  cookie: {
+    maxAge: 60 * 60 * 1000, // 1 hour
+  },
+  resave: false,
+  saveUninitialized: false,
+  store: new SequelizeStore({
+    db: sql,
+    expiration: 60 * 60 * 1000, // 1 hour
+  }),
 };
+
 
 // Use the session middleware
 app.use(session(sess));
+
+// Tell the Express app to use the handlebars engine and set the view engine to handlebars
+app.engine("handlebars", hbs.engine);
+app.set("view engine", "handlebars");
 
 // Use the controllers for handling routes
 app.use(require("./controllers"));

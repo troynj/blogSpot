@@ -1,6 +1,6 @@
 const router = require('express').Router();
+const withAuth = require("../../utils/auth")
 const { Blog, Comment, User } = require('../../models');
-
 // router.get('/', async (req, res) => {
 //   try{
 //     const commentData = await Comment.findAll();
@@ -29,8 +29,7 @@ const { Blog, Comment, User } = require('../../models');
 //     res.status(500).json(err);
 //   }
 // });
-
-router.post('/', async (req, res) => {
+router.post('/', withAuth, async (req, res) => {
   try {
     const commentData = await Comment.create(req.body);
     console.log("comment data from client")
@@ -42,7 +41,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.delete('/:id', async (req, res) => {
+router.delete('/:id', withAuth, async (req, res) => {
   try {
     const commentData = await Comment.destroy({
       where: {

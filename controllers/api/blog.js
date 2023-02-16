@@ -1,4 +1,5 @@
 const router = require("express").Router();
+const withAuth = require("../../utils/auth")
 // const sequelize = require("../../config/connection")
 const { Blog, Comment, User } = require("../../models");
 
@@ -38,7 +39,7 @@ const { Blog, Comment, User } = require("../../models");
 //   }
 // });
 
-router.post("/", async (req, res) => {
+router.post("/", withAuth, async (req, res) => {
   try {
     const blogData = await Blog.create(req.body);
     res.status(200).json(blogData);
