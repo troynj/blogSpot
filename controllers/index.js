@@ -7,9 +7,8 @@ const login = require('./login')
 
 router.use('/', landing);
 router.use("/user", dashboard)
-router.use("/user", dashboard)
 router.use("/blog", blog)
 router.use("/api", api)
-router.use("/login", login)
+router.use("/auth", login)
 
 module.exports = router;

@@ -2,12 +2,14 @@
     <a href="/">Home</a>
     <a href="/user/1">Dashboard</a>
     <!-- If the user is logged in, show a logout button -->
-    {{#if loggedIn}}
-    <button id="logout" class="btn-no-style">Logout</button>
+    {{#if logged_in}}
+    <button id="logout" class="btn-no-style">
+      <a href="/auth">Login</a>
+    </button>
     {{else}}
     <button id="settings" class="btn-no-style">⚙️</button>
     <!-- Otherwise, show a link to login -->
-    <a href="/login">Login</a>
+    <a href="/auth">Login</a>
 
     {{/if}}
   </nav>

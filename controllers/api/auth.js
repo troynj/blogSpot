@@ -10,7 +10,7 @@ router.post('/', async (req, res) => {
     const newUser = await User.create(req.body);
 
     req.session.save(() => {
-      req.session.loggedIn = true;
+      req.session.logged_in = true;
       req.session.user_id = newUser.id
       res.status(200).json(newUser);
     });
@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
 });
 
 // Login
-router.post('/login', async (req, res) => {
+router.put('/login', async (req, res) => {
   try {
     const dbUserData = await User.findOne({
       where: {
@@ -46,7 +46,7 @@ router.post('/login', async (req, res) => {
     }
 
     req.session.save(() => {
-      req.session.loggedIn = true;
+      req.session.logged_in = true;
 
       res
         .status(200)
@@ -60,7 +60,7 @@ router.post('/login', async (req, res) => {
 
 // Logout
 router.post('/logout', (req, res) => {
-  if (req.session.loggedIn) {
+  if (req.session.logged_in) {
     req.session.destroy(() => {
       res.status(204).end();
     });

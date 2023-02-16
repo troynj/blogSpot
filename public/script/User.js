@@ -53,16 +53,16 @@ const User = {
 // }
 
 //add user
-document.getElementById("su").addEventListener("click", function (event) {
+// document.getElementById("su").addEventListener("click", function (event) {
 
-//grab data and fetch
-  event.preventDefault();
-  const nameEl = document.getElementById("su_name").value;
-  const passwordEl = document.getElementById("su_password").value;
-  const cpasswordEl = document.getElementById("su_password-confirm").value;
-  console.log(nameEl, passwordEl, cpasswordEl)
-  // if (nameEl && passwordEl && passwordEl === cpasswordEl) {
-User.create(nameEl, passwordEl);
-  //document.location.reload();
-  // }
-});
+// //grab data and fetch
+//   event.preventDefault();
+//   const nameEl = document.getElementById("su_name").value;
+//   const passwordEl = document.getElementById("su_password").value;
+//   const cpasswordEl = document.getElementById("su_password-confirm").value;
+//   console.log(nameEl, passwordEl, cpasswordEl)
+//   // if (nameEl && passwordEl && passwordEl === cpasswordEl) {
+// User.create(nameEl, passwordEl);
+//   //document.location.reload();
+//   // }
+// });
