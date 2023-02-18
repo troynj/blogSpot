@@ -34,7 +34,7 @@ router.get("/:id", withAuth, async (req, res) => {
     const data = blogData.get({ plain: true });
     console.log("tester log")
 console.log(data)
-    res.status(200).render('blog', data);
+    res.status(200).render('blog', {data, userId: req.session.userId, loggedIn : req.session.loggedIn});
   } catch (err) {
     res.status(500).json(err);
   }

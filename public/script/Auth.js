@@ -15,4 +15,5 @@ const Auth = {
       console.error("Error updating user:", response.statusText);
     }
   },
+
 };

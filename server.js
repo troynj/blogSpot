@@ -14,19 +14,10 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Import the sequelize connection
-const sql = require("./config/connection");
+const sequelize = require("./config/connection");
 
 // Create a new instance of the Express-Handlebars engine
 const hbs = exphbs.create({});
-
-// Parse JSON request bodies
-app.use(express.json());
-
-// Parse URL-encoded request bodies
-app.use(express.urlencoded({ extended: true }));
-
-// Serve static files from the "public" directory
-app.use(express.static(path.join(__dirname, "public")));
 
 // Import the "express-session" module
 const session = require("express-session");
@@ -38,16 +29,14 @@ const SequelizeStore = require("connect-session-sequelize")(session.Store);
 const sess = {
   secret: "Super secret secret",
   cookie: {
-    maxAge: 60 * 60 * 1000, // 1 hour
+    maxAge: 86400,
   },
   resave: false,
   saveUninitialized: false,
   store: new SequelizeStore({
-    db: sql,
-    expiration: 60 * 60 * 1000, // 1 hour
+    db: sequelize,
   }),
 };
-
 
 // Use the session middleware
 app.use(session(sess));
@@ -56,11 +45,20 @@ app.use(session(sess));
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
+// Parse JSON request bodies
+app.use(express.json());
+
+// Parse URL-encoded request bodies
+app.use(express.urlencoded({ extended: true }));
+
+// Serve static files from the "public" directory
+app.use(express.static(path.join(__dirname, "public"))); 
+
 // Use the controllers for handling routes
 app.use(require("./controllers"));
 
 // Sync the sequelize models to the database and start the server
-sql.sync({ force: false }).then(() => {
+sequelize.sync({ force: false }).then(() => {
 app.listen(PORT, () => {
 console.log(`App listening on port http://localhost:${PORT}/ !`);
 });

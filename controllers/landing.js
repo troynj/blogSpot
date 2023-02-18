@@ -12,7 +12,7 @@ router.get("/", withAuth, async (req, res) => {
     });
     const blogs = blogData.map((blog) => blog.get({ plain: true }));
 
-    res.render('landing', {blogs, logged_in : req.session.logged_in});
+    res.render('landing', {blogs, loggedIn : req.session.loggedIn, userId : req.session.userId});
   } catch (err) {
     res.status(500).json(err);
   }

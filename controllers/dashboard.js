@@ -17,7 +17,7 @@ router.get('/:id', withAuth, async (req, res) => {
     }
     const data = userData.get({ plain: true })
     console.log(data)
-    res.status(200).render("dashboard", {data, logged_in : req.session.logged_in});
+    res.status(200).render("dashboard", {data, loggedIn : req.session.loggedIn, userId : req.session.userId});
   } catch (err) {
     res.status(500).json(err);
   }

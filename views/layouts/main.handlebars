@@ -1,55 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
 
-{{> navbar}}
+  <nav>
+    <a href="/">Home</a>
+  
+    <!-- If the user is logged in, show a logout button -->
+    {{#if loggedIn}}
+    <a href="/user/{{userId}}">Dashboard</a>
+    <button id="logoutlogoutlogout" class="btn-no-style">Log Out </button>
+    {{else}}
+    <button id="settings" class="btn-no-style">⚙️</button>
+    <!-- Otherwise, show a link to login -->
+    <a href="/SignIn">Login</a>
+
+    {{/if}}
+  </nav>
 
   {{{body}}}
+
+  {{!-- <!-- Sign up Modal -->
+  <div id="signupModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Sign Up</h2>
+      <form action="#">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form action="#">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div> --}}
+<script>
+
+  document.getElementById("logoutlogoutlogout").addEventListener('click', async function(){
+  console.log("entered")
+  // event.preventDefault()
+    const response = await fetch(`/api/logout/`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (response.ok) {
+    document.location.replace("/")
+    } else {
+      console.error("Error updating user:", response.statusText);
+    }
   
-    {{!-- <!-- Sign up Modal -->
-<div id="signupModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h2>Sign Up</h2>
-    <form action="#">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username"><br><br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email"><br><br>
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password"><br><br>
-      <input type="submit" value="Submit">
-    </form>
-  </div>
-</div>
 
-<!-- Login Modal -->
-<div id="loginModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h2>Login</h2>
-    <form action="#">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username"><br><br>
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password"><br><br>
-      <input type="submit" value="Submit">
-    </form>
-  </div>
-</div> --}}
-
-<script src="/script/Comment.js"></script>
-<script src="/script/Blog.js"></script>
-<script src="/script/User.js"></script>
-<script src="/script/Auth.js"></script>
-<script src="/script/login.js"></script>
-  </body></html>
+})
+</script>
+  <script src="/script/Auth.js"></script>
+ <script src="/script/User.js"></script>
+</body>
+</html>
