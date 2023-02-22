@@ -25,13 +25,13 @@ nodemon
 sequelize
 # Installation
 
-- Go to https://github.com/tnj415/blogSpot and copy the repository on Github by clicking the green code button.
+- Go to https://github.com/troynj/blogSpot and copy the repository on Github by clicking the green code button.
 - Open your terminal, navigate to destination you want to download this repository, and run the command:
-  - $ git clone https://github.com/tnj415/blogspot.git
+  - $ git clone https://github.com/troynj/blogspot.git
 
 # Usage
 
-- The current version of the website can be accessed at the url: https://tnj415.github.io/blogSpot/
+- The current version of the website can be accessed at the url: https://troynj.github.io/blogSpot/
 - This website can be navigated with the links on the website
 
 # Collaboration
